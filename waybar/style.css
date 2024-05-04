@@ -1,0 +1,196 @@
+* {
+    font-family: "Iosevka Nerd Font";
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+    color: #cdd6f4;
+}
+
+tooltip {
+    background: #1e1e2e;
+    opacity: 0.7;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+tooltip label{
+    color: #cdd6f4;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: #313244;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: #a6adc8;
+}
+
+#workspaces button.focused {
+    color: #a6adc8;
+    background: #eba0ac;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    background: #a6e3a1;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: #11111b;
+    color: #cdd6f4;
+    border-radius: 10px;
+}
+
+#custom-launch_wofi,
+#custom-lock_screen,
+#custom-light_dark,
+#custom-power_btn,
+#custom-power_profile,
+#custom-weather,
+#custom-myhyprv,
+#window,
+#cpu,
+#disk,
+#custom-updates,
+#memory,
+#battery,
+#pulseaudio,
+#clock,
+#network,
+#tray,
+#temperature,
+#workspaces,
+#backlight {
+    background: #1e1e2e;
+    opacity: 0.7;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 7px;
+    border: solid 1px #f9e2af;
+    color: #a6e3a1;
+}
+
+#network {
+	padding-right: 0px;
+}
+
+#network , #backlight, #cpu {
+    border-radius: 10px 0px 0px 10px;
+    margin-left : 8px;
+}
+
+#custom-light_dark, #workspaces, #disk {
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
+
+#temperature.critical {
+    color: #e92d4d;
+}
+
+#clock, #network, #pulseaudio {
+	color: #f9e2af;
+}
+
+#workspaces {
+	opacity: 0.7;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+#window {
+    border-radius: 10px;
+    opacity: 0.7;
+    border: solid 1px red;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#custom-launch_wofi {
+    color: #f38ba8;
+    margin-right: 8px;
+    border-radius: 0px 10px 10px 0px;
+    padding-right: 16px;
+}
+
+#pulseaudio {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#pulseaudio.microphone {
+    color: #cdd6f4;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#battery {
+    color: #cdd6f4;
+    border-left: 0px;
+}
+
+#tray{
+    background: #000000;
+    opacity: 0.7;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-right: 5px;
+    margin-top: 7px;
+    border: 5px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#clock {
+    background: #1e1e2e;
+    opacity: 0.7;
+    margin: 3px 0px;
+    margin-top: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#taskbar {
+    background: #1e1e2e;
+    opacity: 0.6;
+    margin: 3px 0px;
+    margin-top: 7px;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: #cba6f7;
+}
+
+#taskbar button {
+    box-shadow: none;
+	text-shadow: none;
+    padding: 0px;
+    border-radius: 6px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #93cee9;
+    animation: gradient_f 5s ease-in infinite;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#taskbar button.active {
+    background: #b4befe;
+    color: #ffffff;
+    margin-left: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
