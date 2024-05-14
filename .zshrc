@@ -29,5 +29,6 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 alias c="clear"
 alias n="nvim"
 alias ..="cd .."
+alias lg="lazygit"
 
 neofetch
