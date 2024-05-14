@@ -2,15 +2,14 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
-vim.cmd("set hidden")
+vim.cmd("set clipboard+=unnamedplus")
 vim.g.mapleader = " "
 vim.g.background = "light"
 
 vim.keymap.set("n", "<C-s>", "<cmd>w<CR>")
-vim.keymap.set("n", "<tab>", ":bnext<CR>")
+vim.keymap.set("n", "<tab>", ":BufferLineCycleNext<CR>")
 
 vim.opt.swapfile = false
-vim.opt.clipboard = "unnamedplus"
 
 -- Navigate vim panes better
 vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
