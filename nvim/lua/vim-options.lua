@@ -6,8 +6,9 @@ vim.cmd("set clipboard+=unnamedplus")
 vim.g.mapleader = " "
 vim.g.background = "light"
 
-vim.keymap.set("n", "<C-s>", "<cmd>w<CR>")
+vim.keymap.set("n", "<C-s>", "<cmd>wa<CR>")
 vim.keymap.set("n", "<tab>", ":BufferLineCycleNext<CR>")
+vim.keymap.set("n", "<leader>x", ":bdelete!<CR>")
 
 vim.opt.swapfile = false
 

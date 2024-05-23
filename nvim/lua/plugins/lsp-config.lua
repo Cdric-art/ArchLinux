@@ -3,7 +3,7 @@ return {
 		"williamboman/mason.nvim",
 		lazy = false,
 		opts = {
-			ensure_installed = { "prettier", "stylua", "eslint_d" },
+			ensure_installed = { "prettier", "stylua", "eslint_d", "blade-formatter" },
 		},
 		config = function()
 			require("mason").setup()

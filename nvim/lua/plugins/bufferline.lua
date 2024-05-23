@@ -7,8 +7,8 @@ return {
 		require("bufferline").setup({
 			options = {
         mode = "buffers",
-        close_command = nil,
-        right_mouse_command = nil,
+        close_command = "bdelete! %d",
+        right_mouse_command = "bdelete! %d",
 				offsets = {
           {
 					filetype = "neo-tree",
