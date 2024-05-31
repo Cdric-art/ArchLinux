@@ -25,7 +25,7 @@ $textsize: 12px;
 .popup {
   background-color: $bg;
   color: #50fa7b;
-  border-radius: 16px;
+  border-radius: 4px;
 }
 
 menu {
@@ -38,20 +38,20 @@ menu {
 }
 
 .bar {
-  opacity: 0.85;
+  opacity: 0.8;
   margin-top: 4px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .bar,
 tooltip {
   background-color: $bg;
-  border-radius: 16px;
+  border-radius: 4px;
 }
 
 .right {
-  border-radius: 16px;
+  border-radius: 4px;
 }
 
 .time-text {
@@ -61,7 +61,7 @@ tooltip {
 .title-text {
   font-size: $textsize;
   color: $btblue;
-  padding-left: 12px;
+  padding-left: 16px;
 }
 
 .reboot-button {
