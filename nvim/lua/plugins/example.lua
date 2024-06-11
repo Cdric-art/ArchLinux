@@ -142,6 +142,8 @@ return {
                 "yaml",
                 "php",
                 "blade",
+                "java",
+                "kotlin",
             },
         },
     },
